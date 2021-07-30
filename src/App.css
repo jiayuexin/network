@@ -1,0 +1,86 @@
+.App {
+    text-align: center;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+button {
+    font-size: calc(10px + 2vmin);
+}
+/* .logo {
+    margin: 10px;
+    font-size: 28px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: gold;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666,
+        0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+    background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%);
+    
+}
+.logo1{
+  transition: all .3s;
+  font-size: 18px
+} */
+.logo {
+    /* float: left; */
+    width: 120px;
+    height: 31px;
+    line-height: 17px;
+    text-align: center;
+    margin: 16px 24px 16px 0;
+    background: rgba(255, 255, 255, 0.3);
+    font-size: 28px;
+    color: gold;
+    text-shadow: 0px 1px 0px #999, 0px 2px 0px #888, 0px 3px 0px #777, 0px 4px 0px #666,
+        0px 5px 0px #555, 0px 6px 0px #444, 0px 7px 0px #333, 0px 8px 7px #001135;
+    /* background-image: linear-gradient(120deg, #a1c4fd 0%, #c2e9fb 100%); */
+}
+
+.ant-row-rtl #components-layout-demo-top-side-2 .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+}
+.ant-layout-header {
+    padding-left: 15px;
+}
+.header {
+    display: flex;
+}
+.site-layout-background {
+    background: #fff;
+}

@@ -1,0 +1,38 @@
+.publicLeft {
+    display: flex;
+}
+.public {
+    display: flex;
+    justify-content: space-between;
+}
+.input::-webkit-input-placeholder {
+    /* 修改字体颜色 */
+    color: #fff;
+    /* 修改字号，默认继承input */
+    font-size: 8px !important;
+}
+.publicRight {
+    display: flex;
+    height: 32px;
+}
+
+.fontImage {
+    margin-left: 15px;
+    line-height: 32px !important;
+    font-size: 18px;
+}
+.moreSelectStyle {
+    width: 500px;
+    background-color: #fff;
+    box-shadow: 2px 2px 5px #ccc;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.moreSelectStyle span{
+    display: block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
